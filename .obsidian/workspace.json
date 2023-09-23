@@ -32,7 +32,6 @@
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -79,12 +78,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 218.5
   },
   "right": {
     "id": "e9a2c1ba0a84a4d0",
@@ -100,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "process/journal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "process/journal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "process/journal.md"
               }
             }
           }
@@ -161,16 +159,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9329708c2fe78dd1",
+  "active": "039c61cc8b6087fc",
   "lastOpenFiles": [
-    "reference/articles/MultipleResourceUseStrategiesAndResilience_Yucatán.pdf",
+    "reference/Zaachila-3.png",
+    "reference/Zaachila-2.png",
+    "reference/Zaachila-1.png",
+    "README.md",
+    "reference/in-other-waters-01.jpg",
+    "reference/in-other-waters-07.jpg",
+    "reference/in-other-waters-06.jpg",
+    "reference/in-other-waters-05.jpg",
+    "reference/in-other-waters-04.jpg",
+    "reference/in-other-waters-03.jpg",
+    "reference/in-other-waters-02.png",
     "reference/articles/TrueGrasp.pdf",
-    "reference/articles/DINÁMICA-ESPACIAL_TesisLore.pdf",
+    "reference/articles/MultipleResourceUseStrategiesAndResilience_Yucatán.pdf",
     "reference/articles/GonzalezGonzalezEtAl-2020-LinkingColeopteranDiversityWithAgricultural.pdf",
+    "reference/articles/GarcaBarrios-AztecaChessexperience-2017.pdf",
+    "reference/articles/DINÁMICA-ESPACIAL_TesisLore.pdf",
+    "process/photos/NotesPhoto (6).jpeg",
     "reference/articles/Tesis Lore.pdf",
     "reference/articles/Juegos Serios- El caso de la matriz agroecológica en Zaachila.docx",
     "process/journal.md",
-    "README.md",
     "process/todo.md",
     "process/photos"
   ]
