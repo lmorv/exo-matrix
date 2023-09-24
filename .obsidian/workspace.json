@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "process/journal.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "process/journal.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "process/journal.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "process/journal.md"
+                "file": "README.md"
               }
             }
           }
@@ -159,11 +159,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3797672ca2e65b4d",
+  "active": "039c61cc8b6087fc",
   "lastOpenFiles": [
+    "process/journal.md",
     "reference/articles/~$egos Serios- El caso de la matriz agroecológica en Zaachila.docx",
     "README.md",
-    "process/journal.md",
     "reference/modelo.png",
     "reference/modelo.png.crdownload",
     "reference/Zaachila-3.png",
