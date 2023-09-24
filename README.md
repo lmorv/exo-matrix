@@ -2,6 +2,8 @@
 
 This is the repository for 'exo-matriz', a narrative/ fabulative simulation game made as a research-creation project that explores agro-ecological systems and the interaction of beetle populations with traditional agricultural practices in Mexico.
 
+![moodz](art-source/exo-matriz_MoodSketch.psd)
+
 ## Team:
 - Fime de la Fuente
 - Leonardo Morales Vega
