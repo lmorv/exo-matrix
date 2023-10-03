@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "process/design-documents/Design notes.md",
+                "file": "process/leo-journal.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -82,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.5,
-    "collapsed": true
+    "width": 218.5
   },
   "right": {
     "id": "e9a2c1ba0a84a4d0",
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "process/leo-journal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "process/leo-journal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "process/leo-journal.md"
               }
             }
           }
@@ -160,12 +160,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9329708c2fe78dd1",
+  "active": "b4d0d1e4ec9873d8",
   "lastOpenFiles": [
-    "process/design-documents/Design notes.md",
     "README.md",
+    "process/leo-journal.md",
+    "process/leo-todo.md",
+    "process/leo-why.md",
+    "process/design-documents/Design notes.md",
     "process/design-documents/LeoMV_Exomatriz-Page1-Draft1.pdf",
-    "process/journal.md",
     "reference/articles/~$egos Serios- El caso de la matriz agroecológica en Zaachila.docx",
     "reference/modelo.png",
     "reference/modelo.png.crdownload",
@@ -184,7 +186,6 @@
     "reference/articles/GarcaBarrios-AztecaChessexperience-2017.pdf",
     "reference/articles/DINÁMICA-ESPACIAL_TesisLore.pdf",
     "reference/articles/Tesis Lore.pdf",
-    "reference/articles/Juegos Serios- El caso de la matriz agroecológica en Zaachila.docx",
-    "process/todo.md"
+    "reference/articles/Juegos Serios- El caso de la matriz agroecológica en Zaachila.docx"
   ]
 }

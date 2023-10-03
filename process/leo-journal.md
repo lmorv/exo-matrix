@@ -1,4 +1,52 @@
-## 2023-09-23 - Can't say no to Coleoptera
+## 2023-10-03 | Game design and cross-discipline communication
+
+I've had some time to review the main paper describing the Zaachila model and the research methodology employed, and I've had a chance to talk to Fime about next steps in our design process. Originily he was going to provide an outline of a simplified variables system that would be the basis of the gamified interaction with the simulation. I imagined that that along with the narrative design would make up the loop after some iteration.
+
+I have been thinking of a chapter-based approach to the narrative progression. Each chapter associated to a narrative objective that teaches the player something about the dynamics between the components of the agroecosystem matrix, tutorialize the game mechanics via narrative objectives and ramp-up the complexity from chapter to chapter. While also allowing the story to progress on an interpersonal-cultural level.
+
+I figured that terrain types or 'patches' and the beetle and human agent would be the primary game objects, and I started to think of ways to implement behavior on them from an object-oriented approach. for example; I though that forest patches could be represented by intersecting circles with a radius property that increase or decreases according to proximity to a water source, they could be spawned on grass patches a and elevated terrain patches with enough surface area to host at least one tree (a circle with a radius). Agricultural patches may be more complicated objects, having a set of game action that the player can perform on then, such as 'irrigate', 'harvest', 'plant' and so on. They may also be converted to industrial agricultural patches via 'upgrades' essentially unlocking different game actions on them and giving up others --like the ability to plant more that one type of crop on them.
+
+Grassland patches could also be subdivided dynamically according to programmed rules using something like a voronoi fractal function to slice them up with roads or into cells that represent urban development.
+
+That's all starting to sound very complicated, and we'll need to tackle one problem at a time in practice. We'll need to figure out what gives us the most 'bang for our buck' to get our message across. Maybe that's just an agricultural patch that can turn in to a more efficient mono-crop patch and its interaction with grass, forest and urban patches, and a particle system of beetles that migrates between patches and dwindles or thrives according to game-state conditions.
+
+Anyway, what came out of our last design planning chat is that we will end up having to design the simulation sort of from the ground up, informed by the input from the ecologists that where present on-site during the survey of the Zaachila matrix. Rather than base it off the computational model from the paper. That is for didactic considerations and also for representational considerations. I tried to synthesize my understanding of our problem-space to my friend Sascha in the following way: 
+
+Sascha:
+>Beetles? 
+
+Leo:
+>Yeeees!
+>I got debriefed about the definition of a bunch of stuff. Like what 'matrices' are in the context of agroecosystems
+>And they are having a discussion about how the computer model that is layed out in the paper is not very didactic, and also not very representative of the specific interactions that where observed in the area of study...
+>The beetle behavior for example is not based on an actual species of beetle that is present in the town. It's based on one that is well studied and there's readily available data for 
+>So the model serves as a kind of generalized proof of concept rather than an actual predictive tool...
+>They wanna do a workshop with the peeps that actually observed the agroecosystems of the area to design something that they'd actually want to disseminate rather than base the design on something that doesn't quite show the real state of stuff
+>And they want me to sort of give them a 'game design 101' debrief to orient the process.
+>But essentially, me and fime will design a base system of variables and interactions on game objects, a game loop, and then adjust based on the outcomes of the workshop...
+>Which will happen in about two weeks.
+>So I gotta teach fime how to game design as I make the preliminary design docs. Then me and fime have to teach the rest of the ecologists how to game design together so that we can properly represent the dynamics of the matrix 
+
+Sascha:
+>Brooo sounds fucking dope - and insane. Let me know if you need a hand or have any technical questions. Also look up Unity for Humanity - and let me know if you have questions. We do some work with them.
+ Fime is your friend / the connection right?
+
+Leo:
+> Yeah, Fime is my friend/collaborator. 
+ It is pretty insane haha
+ I'll look that up!
+
+Sascha:
+> I wonder if they have beetle specimens you could scan 
+ 👀👀
+
+Leo:
+>Oooo
+ That would be dope
+
+
+
+## 2023-09-23 | Can't say no to Coleoptera
 
 Near the beginning of this fall semester, a friend, Fime de la Fuente contacted me with an idea for a serious game, based on some research he'd been working on with other people (paper included in the references folder in this repo). This was our conversation on Instagram: 
 
@@ -109,3 +157,4 @@ The conversation continued with some logistics to meet on zoom later on and some
 
 During the time of these conversations taking place and our zoom meeting my main narrative design insight was the idea of having two separate modes for interfacing with the game and the simulation: a human and a beetle mode. More on what that means design-wise later. And Fime and I agreed that the cultural/human aspect of the data should be a central focus of the experience.
 I think the variable system design and the interaction design on top of that are gonna be the crux of iteration throughout the project. And I am really exited to see what it becomes!!
+
