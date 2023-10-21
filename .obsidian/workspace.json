@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "process/design-documents/Design notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,6 @@
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -83,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.5
+    "width": 218.5,
+    "collapsed": true
   },
   "right": {
     "id": "e9a2c1ba0a84a4d0",
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "process/leo-journal.md",
+                "file": "process/design-documents/Design notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "process/leo-journal.md",
+                "file": "process/design-documents/Design notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "process/leo-journal.md"
+                "file": "process/design-documents/Design notes.md"
               }
             }
           }
@@ -160,32 +160,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b4d0d1e4ec9873d8",
+  "active": "9329708c2fe78dd1",
   "lastOpenFiles": [
-    "README.md",
-    "process/leo-journal.md",
-    "process/leo-todo.md",
-    "process/leo-why.md",
-    "process/design-documents/Design notes.md",
-    "process/design-documents/LeoMV_Exomatriz-Page1-Draft1.pdf",
-    "reference/articles/~$egos Serios- El caso de la matriz agroecológica en Zaachila.docx",
-    "reference/modelo.png",
-    "reference/modelo.png.crdownload",
-    "reference/Zaachila-3.png",
-    "reference/Zaachila-2.png",
-    "reference/Zaachila-1.png",
-    "reference/in-other-waters-01.jpg",
-    "reference/in-other-waters-07.jpg",
-    "reference/in-other-waters-06.jpg",
-    "reference/in-other-waters-05.jpg",
-    "reference/in-other-waters-04.jpg",
-    "reference/in-other-waters-03.jpg",
-    "reference/articles/TrueGrasp.pdf",
-    "reference/articles/MultipleResourceUseStrategiesAndResilience_Yucatán.pdf",
-    "reference/articles/GonzalezGonzalezEtAl-2020-LinkingColeopteranDiversityWithAgricultural.pdf",
-    "reference/articles/GarcaBarrios-AztecaChessexperience-2017.pdf",
-    "reference/articles/DINÁMICA-ESPACIAL_TesisLore.pdf",
-    "reference/articles/Tesis Lore.pdf",
-    "reference/articles/Juegos Serios- El caso de la matriz agroecológica en Zaachila.docx"
+    "unity-project/exomatriz-play/Library/BurstCache/JIT/Objects/fdfa95d7b9e95a01bf6eb6159ce78dbc.obj",
+    "unity-project/exomatriz-play/Library/BurstCache/JIT/Objects/fdfa95d7b9e95a01bf6eb6159ce78dbc.gbc",
+    "unity-project/exomatriz-play/Library/BurstCache/JIT/Objects/f87b5cabf3ed2ae8a534f54692e38eb0.gbc",
+    "unity-project/exomatriz-play/Library/BurstCache/JIT/Objects/f86e512cef8737dbe94b9e6d2e4b10fc.obj",
+    "unity-project/exomatriz-play/Library/BurstCache/JIT/Objects/f86e512cef8737dbe94b9e6d2e4b10fc.gbc",
+    "unity-project/exomatriz-play/Library/BurstCache/JIT/Objects/f839291005435678e5b3fbff23e37365.obj",
+    "unity-project/exomatriz-play/Library/BurstCache/JIT/Objects/f839291005435678e5b3fbff23e37365.gbc",
+    "unity-project/exomatriz-play/Library/BurstCache/JIT/Objects/f8170b1c86e4f5e2e809788c798afaf0.obj",
+    "unity-project/exomatriz-play/Library/BurstCache/JIT/Objects/f806f008d456a01304ff6fe70be71708.obj",
+    "unity-project/exomatriz-play/Library/BurstCache/JIT/Objects/f806f008d456a01304ff6fe70be71708.gbc",
+    "unity-project/exomatriz-play/Library/BurstCache/JIT/Objects/f622e284e27a780826b9e873dfa7d261.obj",
+    "unity-project/exomatriz-play/Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Editor/AssetEditor/Resources/pro/propertiesBackground.png",
+    "unity-project/exomatriz-play/Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Editor/AssetEditor/Resources/pro/foldoutBackground.png",
+    "unity-project/exomatriz-play/Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Editor/AssetEditor/Resources/pro/actionTreeBackgroundWithoutBorder.png",
+    "unity-project/exomatriz-play/Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Editor/AssetEditor/Resources/pro/actionTreeBackground.png",
+    "unity-project/exomatriz-play/Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Editor/AssetEditor/Resources/personal/propertiesBackground.png",
+    "unity-project/exomatriz-play/Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Editor/AssetEditor/Resources/personal/foldoutBackground.png",
+    "unity-project/exomatriz-play/Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Editor/AssetEditor/Resources/personal/actionTreeBackground.png",
+    "unity-project/exomatriz-play/Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Editor/AssetEditor/Resources/personal/actionTreeBackgroundWithoutBorder.png",
+    "unity-project/exomatriz-play/Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Editor/AssetEditor/Resources/yellow.png",
+    "unity-project/exomatriz-play/Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Editor/AssetEditor/Resources/pink.png",
+    "unity-project/exomatriz-play/Library/PackageCache/com.unity.inputsystem@1.7.0/Samples~/UnityRemote/README.md",
+    "unity-project/exomatriz-play/Library/PackageCache/com.unity.inputsystem@1.7.0/Samples~/UIvsGameInput/README.md",
+    "unity-project/exomatriz-play/Library/PackageCache/com.unity.inputsystem@1.7.0/Samples~/SimpleMultiplayer/README.md",
+    "unity-project/exomatriz-play/Library/PackageCache/com.unity.inputsystem@1.7.0/Samples~/SimpleDemo/README.md",
+    "unity-project/exomatriz-play/Library/PackageCache/com.unity.inputsystem@1.7.0/Samples~/RebindingUI/README.md",
+    "unity-project/exomatriz-play/Library/PackageCache/com.unity.inputsystem@1.7.0/Samples~/InputRecorder/README.md",
+    "unity-project/exomatriz-play/Library/PackageCache/com.unity.inputsystem@1.7.0/Samples~/GamepadMouseCursor/README.md",
+    "unity-project/exomatriz-play/Library/PackageCache/com.unity.inputsystem@1.7.0/Samples~/CustomDeviceUsages/README.md",
+    "unity-project/exomatriz-play/Library/PackageCache/com.unity.inputsystem@1.7.0/Samples~/CustomDevice/README.md",
+    "unity-project/exomatriz-play/Library/PackageCache/com.unity.inputsystem@1.7.0/Samples~/CustomComposite/README.md",
+    "unity-project/exomatriz-play/Library/PackageCache/com.unity.inputsystem@1.7.0/Documentation~/Workflows.md",
+    "unity-project/exomatriz-play/Library/PackageCache/com.unity.inputsystem@1.7.0/Documentation~/Workflow-PlayerInput.md",
+    "unity-project/exomatriz-play/Library/PackageCache/com.unity.inputsystem@1.7.0/Documentation~/Workflow-Embedded.md",
+    "unity-project/exomatriz-play/Library/PackageCache/com.unity.inputsystem@1.7.0/Documentation~/Workflow-Direct.md",
+    "unity-project/exomatriz-play/Library/PackageCache/com.unity.inputsystem@1.7.0/Documentation~/UserManagement.md",
+    "unity-project/exomatriz-play/Library/PackageCache/com.unity.inputsystem@1.7.0/Documentation~/Workflow-ActionsAsset.md",
+    "unity-project/exomatriz-play/Library/PackageCache/com.unity.inputsystem@1.7.0/Documentation~/UISupport.md",
+    "unity-project/exomatriz-play/Library/PackageCache/com.unity.inputsystem@1.7.0/Documentation~/UseInEditor.md",
+    "unity-project/exomatriz-play/Library/PackageCache/com.unity.inputsystem@1.7.0/Documentation~/Touch.md",
+    "unity-project/exomatriz-play/Library/PackageCache/com.unity.inputsystem@1.7.0/Documentation~/Testing.md",
+    "unity-project/exomatriz-play/Library/PackageCache/com.unity.inputsystem@1.7.0/Documentation~/TableOfContents.md",
+    "unity-project/exomatriz-play/Library/PackageCache/com.unity.inputsystem@1.7.0/Documentation~/SupportedDevices.md",
+    "unity-project/exomatriz-play/Library/PackageCache/com.unity.inputsystem@1.7.0/Documentation~/Sensors.md",
+    "unity-project/exomatriz-play/Library/PackageCache/com.unity.inputsystem@1.7.0/Documentation~/Settings.md",
+    "unity-project/exomatriz-play/Library/PackageCache/com.unity.inputsystem@1.7.0/Documentation~/Processors.md"
   ]
 }

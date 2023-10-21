@@ -1,3 +1,46 @@
+# Game object descriptions:
+
+## **Dynamic environment objects:**
+
+**Forest patch:**
+
+**Grassland patch:**
+
+**Traditional agricultural patch:**
+
+**Monocrop agricultural patch:**
+
+**Water source**
+
+**Rivers:**
+
+**Lakes:**
+
+## Static level map assets:
+
+**Terrain elevation:**
+
+**Level layout:**
+
+**Architectural landmarks:**
+
+## Particle systems:
+
+**Beetle particles:**
+
+## Player game objects:
+**Player character:**
+
+**Cursor:**
+
+**Camera:**
+
+## Narrative systems ( the game loop):
+
+## UI:
+
+
+
 
 ## Tipos de suelo:
 
