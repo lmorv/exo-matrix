@@ -1,5 +1,16 @@
 # Game object descriptions:
 
+- # [Unity Input system playlist](https://youtube.com/playlist?list=PLKUARkaoYQT2nKuWy0mKwYURe2roBGJdr&si=Sh1Cs4LGtDW5DWL3):
+	- ## [Click to Move in 3D w/ Input System - Unity Tutorial](https://www.youtube.com/watch?v=zZDiC0aOXDY&list=PLKUARkaoYQT2nKuWy0mKwYURe2roBGJdr&index=34)
+	- ## [Top Down Shooter Controller with Input System - Unity Tutorial](https://www.youtube.com/watch?v=zZDiC0aOXDY&list=PLKUARkaoYQT2nKuWy0mKwYURe2roBGJdr&index=34)
+	
+	- https://www.youtube.com/watch?v=b0AQg5ZTpac&list=PLKUARkaoYQT2nKuWy0mKwYURe2roBGJdr&index=19
+	- https://www.youtube.com/watch?v=PTL19bXCsNU&list=PLKUARkaoYQT2nKuWy0mKwYURe2roBGJdr&index=23
+	- https://www.youtube.com/watch?v=w1vC32e11wU&list=PLKUARkaoYQT2nKuWy0mKwYURe2roBGJdr&index=39
+	
+
+
+---
 ## **Dynamic environment objects:**
 
 **Forest patch:**
