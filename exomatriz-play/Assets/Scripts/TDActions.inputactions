@@ -6,15 +6,6 @@
             "id": "b4d20361-6e73-47e8-b297-313d4c41f65d",
             "actions": [
                 {
-                    "name": "Shoot",
-                    "type": "PassThrough",
-                    "id": "7049d1cb-cebd-4dc5-b599-eccdb80f3bc4",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
                     "name": "MousePosition",
                     "type": "PassThrough",
                     "id": "cf005974-f163-4ec9-b2c2-47e59e1f34fc",
@@ -34,17 +25,6 @@
                 }
             ],
             "bindings": [
-                {
-                    "name": "",
-                    "id": "92cbc787-aed6-4dc5-90a8-58a621477fc3",
-                    "path": "<Mouse>/leftButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Shoot",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
                 {
                     "name": "",
                     "id": "d80bc45f-1751-4feb-8bf5-df3a8eff496f",

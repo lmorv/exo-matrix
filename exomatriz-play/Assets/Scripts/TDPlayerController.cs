@@ -6,12 +6,12 @@ using UnityEngine;
 
 public class TDPlayerController : MonoBehaviour
 {
-    [SerializeField] private GameObject bullet;
+    // [SerializeField] private GameObject bullet;
     [SerializeField] private float movementVelocity = 3f;
-    [SerializeField] private Transform bulletDirection;
+    // [SerializeField] private Transform bulletDirection;
     
     private TDActions controls;
-    private bool canShoot = true;
+    // private bool canShoot = true;
     private Camera main;
 
     private void Awake()
@@ -30,27 +30,27 @@ public class TDPlayerController : MonoBehaviour
     void Start()
     {
         main = Camera.main;
-       controls.Player.Shoot.performed += _ => PlayerShoot(); // Underscore instead of ctx (context value) cause we are not reading a context value in this case.
+       // controls.Player.Shoot.performed += _ => PlayerShoot(); // Underscore instead of ctx (context value) cause we are not reading a context value in this case.
     }
 
-    private void PlayerShoot()
-    {
-        if (canShoot) return;
-        
-        Vector2 mousePosition = controls.Player.MousePosition.ReadValue<Vector2>();
-        mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
-        GameObject g = Instantiate(bullet, bulletDirection.position, bulletDirection.rotation);
-        g.SetActive(true);
-        StartCoroutine(CanShoot());
+    // private void PlayerShoot()
+    // {
+    //     if (canShoot) return;
+    //     
+    //     Vector2 mousePosition = controls.Player.MousePosition.ReadValue<Vector2>();
+    //     mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
+    //     GameObject g = Instantiate(bullet, bulletDirection.position, bulletDirection.rotation);
+    //     g.SetActive(true);
+    //     StartCoroutine(CanShoot());
+    //
+    // }
 
-    }
-
-    IEnumerator CanShoot()
-    {
-        canShoot = false;
-        yield return new WaitForSeconds(.5f);
-        canShoot = true;
-    }
+    // IEnumerator CanShoot()
+    // {
+    //     canShoot = false;
+    //     yield return new WaitForSeconds(.5f);
+    //     canShoot = true;
+    // }
     void Update()
     {
         //Rotation
