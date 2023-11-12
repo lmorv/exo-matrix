@@ -48,7 +48,9 @@
      <Compile Include="Assets\Scripts\SubdivisionController.cs" />
      <Compile Include="Assets\Scripts\ClickToMove.cs" />
      <Compile Include="Assets\Scripts\BulletController.cs" />
+     <Compile Include="Assets\Scripts\ParcelController.cs" />
      <Compile Include="Assets\Scripts\TDPlayerController.cs" />
+     <Compile Include="Assets\Scripts\ParcelManager.cs" />
      <Compile Include="Assets\Scripts\TDActions.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Scripts" />

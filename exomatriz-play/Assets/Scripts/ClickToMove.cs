@@ -48,8 +48,8 @@ public class ClickToMove : MonoBehaviour
 
    private IEnumerator PlayerMoveTowards(Vector3 target)
    {
-      float playerDistanceToFloor = transform.position.y - target.y;
-      target.y += playerDistanceToFloor; 
+      float playerDistanceToFloor = transform.position.z - target.z;
+      target.z += playerDistanceToFloor; 
       while (Vector3.Distance(transform.position, target) > 0.1f) {
          // ignores collisions
          Vector3 destination = Vector3.MoveTowards(transform.position, target, playerSpeed * Time.deltaTime);
