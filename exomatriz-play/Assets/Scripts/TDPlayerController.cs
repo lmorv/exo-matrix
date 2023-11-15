@@ -11,8 +11,8 @@ public class TDPlayerController : MonoBehaviour
     // [SerializeField] private Transform bulletDirection;
     
     private TDActions controls;
-    // private bool canShoot = true;
-    private Camera main;
+    private Camera mainCam;
+    
 
     private void Awake()
     {
@@ -29,33 +29,20 @@ public class TDPlayerController : MonoBehaviour
 
     void Start()
     {
-        main = Camera.main;
+        mainCam = Camera.main;
        // controls.Player.Shoot.performed += _ => PlayerShoot(); // Underscore instead of ctx (context value) cause we are not reading a context value in this case.
     }
 
-    // private void PlayerShoot()
+    // private void Interact()
     // {
-    //     if (canShoot) return;
-    //     
-    //     Vector2 mousePosition = controls.Player.MousePosition.ReadValue<Vector2>();
-    //     mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
-    //     GameObject g = Instantiate(bullet, bulletDirection.position, bulletDirection.rotation);
-    //     g.SetActive(true);
-    //     StartCoroutine(CanShoot());
-    //
+    
     // }
-
-    // IEnumerator CanShoot()
-    // {
-    //     canShoot = false;
-    //     yield return new WaitForSeconds(.5f);
-    //     canShoot = true;
-    // }
+    
     void Update()
     {
         //Rotation
         Vector2 mouseScreenPosition = controls.Player.MousePosition.ReadValue<Vector2>();
-        Vector3 mouseWorldPosition = main.ScreenToWorldPoint(mouseScreenPosition);
+        Vector3 mouseWorldPosition = mainCam.ScreenToWorldPoint(mouseScreenPosition);
         Vector3 targetDirection = mouseWorldPosition - transform.position;
         float angle = Mathf.Atan2(targetDirection.y, targetDirection.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(new Vector3(0f, 0f, angle));
@@ -63,5 +50,9 @@ public class TDPlayerController : MonoBehaviour
         //Movement
         Vector3 movement = controls.Player.Movement.ReadValue<Vector2>() * movementVelocity;
         transform.position += movement * Time.deltaTime;
+        
+        // camera follow
+        mainCam = Camera.main;
+        
     }
 }
