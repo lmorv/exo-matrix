@@ -46,9 +46,9 @@ public class FarmLandManager : MonoBehaviour
       mouseClickAction.Disable();
    }
    
-   private void OnClicked(InputAction.CallbackContext context) {
+   private void OnClicked(InputAction.CallbackContext context)
+   {
       Ray ray = mainCamera.ScreenPointToRay(Mouse.current.position.ReadValue());
-      //if (Physics.Raycast(ray, out RaycastHit hit) && hit.collider && hit.collider.GetComponent<CanvasRenderer>() != null){
       if (Physics.Raycast(ray: ray, hitInfo: out RaycastHit hit) && hit.collider && hit.collider.gameObject.layer.CompareTo(groundLayer) == 0) {
          FarmLand farmland = GetHitFarmland(new Vector2(hit.point.x, hit.point.y));
          if (farmland)

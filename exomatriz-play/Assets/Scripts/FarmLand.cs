@@ -23,16 +23,20 @@ public class FarmLand : MonoBehaviour
       }
 
       // Get the current position of the transform
-      Vector2 currentPosition = new Vector2(_rectTransform.position.x, _rectTransform.position.y);
+      // Vector2 currentPosition = new Vector2(_rectTransform.position.x, _rectTransform.position.y);
+      
+      Vector2 localFarmlandPosition = this.transform.InverseTransformPoint(new Vector3(_rectTransform.position.x, _rectTransform.position.y,0));
 
       // Calculate the bounds based on the RectTransform's size
-      float minX = currentPosition.x - _rectTransform.rect.width / 2;
-      float maxX = currentPosition.x + _rectTransform.rect.width / 2;
-      float minY = currentPosition.y - _rectTransform.rect.height / 2;
-      float maxY = currentPosition.y + _rectTransform.rect.height / 2;
+      float minX = localFarmlandPosition.x - _rectTransform.rect.width / 2;
+      float maxX = localFarmlandPosition.x + _rectTransform.rect.width / 2;
+      float minY = localFarmlandPosition.y - _rectTransform.rect.height / 2;
+      float maxY = localFarmlandPosition.y + _rectTransform.rect.height / 2;
 
       // Check if the given point is within the bounds
-      return point.x >= minX && point.x <= maxX && point.y >= minY && point.y <= maxY;
+     Vector2 localPoint = this.transform.InverseTransformPoint(point);
+     
+     return localPoint.x >= minX && localPoint.x <= maxX && localPoint.y >= minY && localPoint.y <= maxY;
    }
    
    // OnEnable instantiates the first parcel at a position with defined dimensions.
@@ -51,7 +55,7 @@ public class FarmLand : MonoBehaviour
    private ParcelController GetParcelFromLocalPos(Vector2 position)
    {
       foreach (ParcelController parcel in parcels){
-         if (parcel.IsWithinBounds(position))
+         if (parcel.IsWithinBounds(position, this.transform))
          {
             return parcel;
          }
@@ -62,13 +66,16 @@ public class FarmLand : MonoBehaviour
 
    public void SubDivideParcelAtPosition(Vector2 position)
    {
-      Vector3 localPoint = this.transform.InverseTransformPoint(new Vector3(position.x, position.y,0)); 
+      Debug.Log(position);
+      Vector3 localPoint = this.transform.InverseTransformPoint(new Vector3(position.x, position.y,0));
+      Debug.Log(localPoint);
       
       ParcelController parcel = GetParcelFromLocalPos(new Vector2(localPoint.x, localPoint.y));
+      Debug.Log(parcel);
       
       if (parcel == null) return;
       
-      SubdivisionData data = parcel.GetSubdivisionData();
+      SubdivisionData data = parcel.GetSubdivisionData(this.transform);
       
       parcel.SetPosition(data.parcelAPosition);
       parcel.SetHeightWidth(data.parcelsWidthHeight);
