@@ -14,21 +14,22 @@ public class ParcelManager : MonoBehaviour
    [SerializeField] private Vector2 heightWidth;
    
    private Camera mainCamera;
-   private Coroutine corutine;
    
    private List<ParcelController> parcels = new List<ParcelController>();
    
    private int groundLayer;
+   
    private void Awake() {
       mainCamera = Camera.main;
       groundLayer = LayerMask.NameToLayer("ground");
    }
    
+   // OnEnable instantiates the first parcel
    private void OnEnable() {
       mouseClickAction.Enable();
       mouseClickAction.performed += OnClicked;
 
-      ParcelController parcel = Instantiate(parcelPrefab, parcelParent);
+      ParcelController parcel = Instantiate(parcelPrefab, parcelParent);  // the initial parcel to subdivide
       parcel.SetPosition(new Vector3(0, 0 ,0));
       parcel.SetHeightWidth(heightWidth);
       parcels.Add(parcel);
@@ -41,11 +42,12 @@ public class ParcelManager : MonoBehaviour
    
    private void OnClicked(InputAction.CallbackContext context) {
       Ray ray = mainCamera.ScreenPointToRay(Mouse.current.position.ReadValue());
+      //if (Physics.Raycast(ray, out RaycastHit hit) && hit.collider && hit.collider.GetComponent<CanvasRenderer>() != null){
       if (Physics.Raycast(ray: ray, hitInfo: out RaycastHit hit) && hit.collider && hit.collider.gameObject.layer.CompareTo(groundLayer) == 0) {
          ParcelController parcel = GetHitParcel(new Vector2(hit.point.x, hit.point.y));
          if (parcel)
          {
-            SubDivideParcel(parcel);
+            SubDivideParcel(parcel); 
          }
       }
    }

@@ -382,6 +382,7 @@
 "Assets/Scripts/CameraZoom.cs"
 "Assets/Scripts/ClickToMove.cs"
 "Assets/Scripts/FarmLand.cs"
+"Assets/Scripts/FarmLandManager.cs"
 "Assets/Scripts/ParcelController.cs"
 "Assets/Scripts/ParcelManager.cs"
 "Assets/Scripts/SubdivisionController.cs"

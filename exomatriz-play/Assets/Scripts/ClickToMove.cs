@@ -69,8 +69,8 @@ public class ClickToMove : MonoBehaviour
       }
    }
 
-   private void OnDrawGizmos() {
-      Gizmos.color = Color.red;
-      Gizmos.DrawSphere(targetPosition,1);
-   }
+   // private void OnDrawGizmos() {
+   //    Gizmos.color = Color.red;
+   //    Gizmos.DrawSphere(targetPosition,1);
+   // }
 }
