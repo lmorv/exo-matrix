@@ -22,7 +22,7 @@ public class ParcelController : MonoBehaviour
         float randomBlue = UnityEngine.Random.Range(0f, 0.5f);
     
         // Create a new color using the random values
-        Color randomColor = new Color(randomRed, randomGreen, randomBlue);
+        Color randomColor = new Color(randomRed, randomGreen, randomBlue, .5f);
     
         // Set the Image component color to the random color
         Image image = GetComponent<Image>();

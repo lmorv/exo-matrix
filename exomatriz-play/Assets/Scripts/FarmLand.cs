@@ -85,4 +85,21 @@ public class FarmLand : MonoBehaviour
       prettyNewParcel.SetHeightWidth(data.parcelsWidthHeight);
       parcels.Add(prettyNewParcel);
    }
+   
+   private void OnDrawGizmos()
+   {
+      Gizmos.color = Color.green; // Set the gizmo color
+      
+      // Store the current Gizmos matrix
+      Matrix4x4 oldMatrix = Gizmos.matrix;
+      
+      // Set the Gizmos matrix to the GameObject's position and rotation
+      Gizmos.matrix = Matrix4x4.TRS(transform.position, transform.rotation, Vector3.one);
+      
+      // Draw a rectangle gizmo using the x and y components of the Vector2 heightWidth property
+      Gizmos.DrawWireCube(Vector3.zero, new Vector3(heightWidth.x, heightWidth.y, 0));
+      
+      // Restore the previous Gizmos matrix
+      Gizmos.matrix = oldMatrix;
+   }
 }

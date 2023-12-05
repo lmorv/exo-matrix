@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: GroundMat
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: -6465566751694194690, guid: 68fd60b8d4ab21e4980f74fcd6f023bd, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -62,7 +62,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Angle_Change_Speed: 0
-    - _Angle_Offset: 15
+    - _Angle_Offset: 11.9
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
     - _BumpScale: 1
@@ -72,7 +72,7 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Island_Density: 5
+    - _Island_Density: 4.5
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
@@ -80,11 +80,26 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _Thickness: 0.1
-    - _Thickness_Falloff: 0.1
+    - _Thickness: 0.01
+    - _Thickness_Falloff: 0.01
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
+    - _Cell_Color: {r: 0.02729318, g: 0.4339623, b: 0.41926876, a: 0}
     - _Color: {r: 0.25839558, g: 0.594689, b: 0.6132076, a: 1}
+    - _Edge_Color: {r: 0, g: 0.4245283, b: 0.28385222, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
+--- !u!114 &4851249743261464283
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0
