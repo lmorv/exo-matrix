@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "process/design-documents/Design notes.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 325.5
   },
   "right": {
     "id": "2779ee08a8c2789f",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "process/design-documents/Design notes.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "process/design-documents/Design notes.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "process/design-documents/Design notes.md"
+                "file": "README.md"
               }
             }
           }
@@ -146,8 +146,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "780daffcbfd66d57",
+  "active": "a3a02ae70970d1a0",
   "lastOpenFiles": [
+    "process/design-documents/exomatriz-demo1.png",
+    "process/design-documents/exomatriz-demo (2).png",
+    "README.md",
+    "process/design-documents/Design notes.md",
     "process/design-documents/LeoMV_Exomatriz-ResearchProposal-Draft1.pdf",
     "process/design-documents/LeonardoMoralesVega_Exomatriz-ResearchProposal-Draft1.pdf"
   ]
