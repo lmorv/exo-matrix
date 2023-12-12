@@ -8,6 +8,7 @@ This is the repository for 'exo-matriz', a narrative/ fabulative simulation game
 ## Team:
 - Fime de la Fuente
 - Leonardo Morales Vega
+- Sacha kavanagh-sommerer
 ## Art-research statement:
 
 **Keywords:** agroecosystem, serious games, simulation, agent model, agriculture, ecology, traditional, cultural, narrative, education, fabulation

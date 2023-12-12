@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "001032fda6ded7b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "process/leo-journal.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1aa54dd8ffb3168a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "process/leo-why.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 325.5
+    "width": 317.5
   },
   "right": {
     "id": "2779ee08a8c2789f",
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "process/leo-why.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "process/leo-why.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "process/leo-why.md"
               }
             }
           }
@@ -146,11 +171,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a3a02ae70970d1a0",
+  "active": "1aa54dd8ffb3168a",
   "lastOpenFiles": [
-    "process/design-documents/exomatriz-demo1.png",
-    "process/design-documents/exomatriz-demo (2).png",
+    "art-source/design-sketches/exomatriz_SubdivMapDesign.png",
+    "art-source/design-sketches/subdiv01.png",
+    "art-source/design-sketches/subdiv02.png",
+    "art-source/design-sketches/subdiv03.png",
+    "art-source/design-sketches/exo-matriz_MoodSketch.png",
+    "process/leo-journal.md",
+    "process/leo-why.md",
     "README.md",
+    "process/design-documents/exomatriz_ideation-9.png",
+    "process/design-documents/exomatriz_ideation-8.png",
+    "process/design-documents/exomatriz_ideation-7.png",
+    "process/design-documents/exomatriz_ideation-10.png",
+    "process/design-documents/exomatriz_ideation-6.png",
+    "process/design-documents/exo-matriz_FinalPresentation.pdf",
+    "process/design-documents/msoEED6.tmp",
+    "process/design-documents/~$exo-matriz_FinalPresentation.pptx",
     "process/design-documents/Design notes.md",
     "process/design-documents/LeoMV_Exomatriz-ResearchProposal-Draft1.pdf",
     "process/design-documents/LeonardoMoralesVega_Exomatriz-ResearchProposal-Draft1.pdf"
