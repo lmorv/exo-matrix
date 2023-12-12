@@ -4,3 +4,6 @@ These materials are a good basis for reflection (for now I'll just drop them her
 
 
 ![Reflect on this | 600](./photos/NotesPhoto1.jpeg =600x)
+
+
+<img src="./photos/NotesPhoto2.jpg" alt="reflect on this" width="200"/>
