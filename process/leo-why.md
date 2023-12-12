@@ -1,6 +1,22 @@
- 
 
-These materials are a good basis for reflection (for now I'll just drop them here):
+
+
+## UNAM Workshop | Partial transcript & discussion audio:
+
+### [exomatriz - workshop discussion (audio)](https://youtu.be/6Xwg32BaKnc)
+
+NOTE: The source audio file for the following transcript is currently trapped in my handy recorder's microSD card.
+
+>"Este entonces, pues si, si quieren vamos a empezar
+
+>Ah yo?  yo me llamo Luis, este, yo pues estudie, bueno estoy aquí en la UNAM. Trabajo, bueno con Mariana llevo trabajando ya desde la licenciatura, en cosas de modelos de, bueno primero en un modelo sobre una reserva en Yucatan, era un modelo basado en agentes. Y luego otro tema que no tiene mucho que ver, bueno, tanto con la matriz, pero también ayude mucho a Lore en su proyecto, en el que se se esta basando creo este proyecto, y que mas?
+
+>Y ya pues nada mas muchas gracias
+
+>Hola yo soy Emilio y trabajo [...]"
+
+
+### These materials are a good basis for reflection (for now I'll just drop them here):
 
 ![Reflect on this | 500](./photos/NotesPhoto1.jpeg =500x)
 
