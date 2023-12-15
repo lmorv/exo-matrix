@@ -94,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 261.5
   },
   "right": {
     "id": "2779ee08a8c2789f",
@@ -173,15 +173,16 @@
   },
   "active": "4425d2f945b826ff",
   "lastOpenFiles": [
+    "README.md",
+    "process/leo-journal.md",
+    "process/leo-why.md",
     "process/design-documents/9415-1b65-b9dc-37a3.tmp",
     "process/design-documents/exomatriz-conversacion.mp4",
     "process/design-documents/exomatriz-conversacion.39564.23292.aac",
     "process/design-documents/exomatriz-conversacion.39564.23292.m4v",
     "process/design-documents/exomatriz-conversacion.wav",
     "process/design-documents/exomatriz_conversacion.aac",
-    "process/leo-journal.md",
     "exo-matrix/art-source/design-sketches/exomatriz-SubdivMapDesign.png.md",
-    "process/leo-why.md",
     "exo-matrix/art-source/design-sketches",
     "exo-matrix/art-source",
     "exo-matrix",
@@ -195,9 +196,7 @@
     "process/photos/workshop-notes (4).jpg",
     "process/photos/workshop-notes (3).jpg",
     "process/photos/workshop-notes (2).jpg",
-    "README.md",
     "process/design-documents/exo-matriz_FinalPresentation.pdf",
-    "process/design-documents/msoEED6.tmp",
     "process/design-documents/Design notes.md"
   ]
 }

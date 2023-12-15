@@ -62,7 +62,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Angle_Change_Speed: 0
-    - _Angle_Offset: 11.9
+    - _Angle_Offset: 2.57
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
     - _BumpScale: 1
@@ -72,7 +72,7 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Island_Density: 4.48
+    - _Island_Density: 3.64
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
