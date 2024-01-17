@@ -14,7 +14,7 @@ void CustomVoronoi_float(float2 UV, float AngleOffset, float CellDensity, out fl
     float2 closestOffset;
 
     for (int y = -1; y <= 1; ++y)
-    {
+    { 
         for (int x = -1; x <= 1; ++x)
         {
             int2 cellToCheck = int2(x,y);
@@ -31,7 +31,7 @@ void CustomVoronoi_float(float2 UV, float AngleOffset, float CellDensity, out fl
     }
 
     DistFromCenter = sqrt(DistFromCenter);
-
+ 
     DistFromEdge = 8.0f;
 
     for (int y = -1; y <= 1; ++y)
