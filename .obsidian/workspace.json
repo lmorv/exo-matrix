@@ -1,26 +1,26 @@
 {
   "main": {
-    "id": "81b9b8683782518e",
+    "id": "bcdfd55195e4e70b",
     "type": "split",
     "children": [
       {
-        "id": "15390957d3d8fae5",
+        "id": "efe8ca699f899799",
         "type": "tabs",
         "children": [
           {
-            "id": "a3a02ae70970d1a0",
+            "id": "1850bbaed5e89e41",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "process/leo-why.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "001032fda6ded7b6",
+            "id": "34bed233f4e507d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,33 +32,33 @@
             }
           },
           {
-            "id": "4425d2f945b826ff",
+            "id": "7cc6bfd85ed4ecb0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "process/leo-why.md",
+                "file": "process/manifesto-zapatista-translation.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "99462d7b03feef83",
+    "id": "076e72050312db60",
     "type": "split",
     "children": [
       {
-        "id": "bc9fbb27cf28f2f3",
+        "id": "26f5fa9684532d78",
         "type": "tabs",
         "children": [
           {
-            "id": "780daffcbfd66d57",
+            "id": "3677f3f53afaeeb1",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -68,7 +68,7 @@
             }
           },
           {
-            "id": "805da3160cec45f8",
+            "id": "a634a352795d8e20",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -83,7 +83,7 @@
             }
           },
           {
-            "id": "3fc7b11f70e40bfd",
+            "id": "1f223a2e2cf09699",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -94,24 +94,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.5,
-    "collapsed": true
+    "width": 200
   },
   "right": {
-    "id": "2779ee08a8c2789f",
+    "id": "1aa12702f2f1070c",
     "type": "split",
     "children": [
       {
-        "id": "8deb27d1c049ec30",
+        "id": "b093b28992b6f2e1",
         "type": "tabs",
         "children": [
           {
-            "id": "f7d6fcab0bdcc3e1",
+            "id": "942e3c15b869d6aa",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "process/leo-why.md",
+                "file": "process/leo-journal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,19 +122,19 @@
             }
           },
           {
-            "id": "3880a9b83cd8f293",
+            "id": "76a48373c941b666",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "process/leo-why.md",
+                "file": "process/leo-journal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "93e2886af2583f37",
+            "id": "539375726bbabfaf",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -146,12 +145,12 @@
             }
           },
           {
-            "id": "e267c84214d2f032",
+            "id": "5c6fd2d6dd2832df",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "process/leo-why.md"
+                "file": "process/leo-journal.md"
               }
             }
           }
@@ -172,32 +171,52 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "780daffcbfd66d57",
+  "active": "34bed233f4e507d9",
   "lastOpenFiles": [
-    "README.md",
     "process/leo-why.md",
     "process/leo-journal.md",
-    "process/design-documents/9415-1b65-b9dc-37a3.tmp",
-    "process/design-documents/exomatriz-conversacion.mp4",
-    "process/design-documents/exomatriz-conversacion.39564.23292.aac",
-    "process/design-documents/exomatriz-conversacion.39564.23292.m4v",
-    "process/design-documents/exomatriz-conversacion.wav",
-    "process/design-documents/exomatriz_conversacion.aac",
-    "exo-matrix/art-source/design-sketches/exomatriz-SubdivMapDesign.png.md",
-    "exo-matrix/art-source/design-sketches",
-    "exo-matrix/art-source",
-    "exo-matrix",
-    "process/design-documents/exomatriz-demo2.png",
-    "process/photos/workshop-notes-5.jpg",
-    "process/photos/workshop-notes-4.jpg",
-    "process/photos/workshop-notes-3.jpg",
-    "process/photos/workshop-notes-2.jpg",
-    "process/photos/workshop-notes-1.jpg",
-    "process/photos/workshop-notes (5).jpg",
-    "process/photos/workshop-notes (4).jpg",
-    "process/photos/workshop-notes (3).jpg",
-    "process/photos/workshop-notes (2).jpg",
-    "process/design-documents/exo-matriz_FinalPresentation.pdf",
-    "process/design-documents/Design notes.md"
+    "process/design-documents/RelativeMovement_Tut.png",
+    "art-source/design-sketches/exo-matriz_MoodSketch.png",
+    "art-source/design-sketches/exomatriz_SubdivMapDesign.png",
+    "art-source/design-sketches/LeoMV_DissonantInkMoth-1.png",
+    "process/concept-art",
+    "README.md",
+    "art-source/design-sketches/subdiv01.png",
+    "art-source/design-sketches/subdiv02.png",
+    "art-source/design-sketches/subdiv03.png",
+    "art-source/design-sketches/LeoMV_DissonantInkMoth-4.png",
+    "art-source/design-sketches/LeoMV_DissonantInkMoth-3.png",
+    "art-source/design-sketches/LeoMV_DissonantInkMoth-2.png",
+    "Untitled.md",
+    "process/manifesto-zapatista-translation.md",
+    "exomatriz-movement/exomatriz_MoveProto/Library/StateCache/SceneView/b8/b8346376664d15824a4958c778a2cce5.json",
+    "exomatriz-movement/exomatriz_MoveProto/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json",
+    "exomatriz-movement/exomatriz_MoveProto/Library/StateCache/SceneView/b8",
+    "exomatriz-movement/exomatriz_MoveProto/Library/StateCache/SceneView/8c",
+    "exomatriz-movement/exomatriz_MoveProto/Library/StateCache/SceneView",
+    "exomatriz-movement/exomatriz_MoveProto/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json",
+    "exomatriz-movement/exomatriz_MoveProto/Library/StateCache/MainStageHierarchy/4d",
+    "exomatriz-movement/exomatriz_MoveProto/Library/StateCache/MainStageHierarchy",
+    "exomatriz-movement/exomatriz_MoveProto/Library/EditorSnapSettings.asset",
+    "exomatriz-movement/exomatriz_MoveProto/Library/PackageCache/com.unity.collab-proxy@2.3.1/Documentation~/TableOfContents.md",
+    "exomatriz-movement/exomatriz_MoveProto/Library/PackageCache/com.unity.collab-proxy@2.3.1/Documentation~/index.md",
+    "exomatriz-movement/exomatriz_MoveProto/Library/PackageCache/com.unity.collab-proxy@2.3.1/Documentation~/QuickStartGuide.md",
+    "exomatriz-movement/exomatriz_MoveProto/Library/PackageCache/com.unity.collab-proxy@2.3.1/Documentation~/MoreHelp.md",
+    "exomatriz-movement/exomatriz_MoveProto/Library/PackageCache/com.unity.collab-proxy@2.3.1/Documentation~/ReconnectCB.md",
+    "exomatriz-movement/exomatriz_MoveProto/Library/PackageCache/com.unity.collab-proxy@2.3.1/Documentation~/MainFeatures.md",
+    "exomatriz-movement/exomatriz_MoveProto/Library/PackageCache/com.unity.collab-proxy@2.3.1/Documentation~/GetStarted.md",
+    "exomatriz-movement/exomatriz_MoveProto/Library/PackageCache/com.unity.collab-proxy@2.3.1/Documentation~/Glossary.md",
+    "exomatriz-movement/exomatriz_MoveProto/Library/PackageCache/com.unity.collab-proxy@2.3.1/Documentation~/GetStartedExistingRepository.md",
+    "exomatriz-movement/exomatriz_MoveProto/Library/PackageCache/com.unity.collab-proxy@2.3.1/Documentation~/GitUsers.md",
+    "exomatriz-movement/exomatriz_MoveProto/Library/PackageCache/com.unity.collab-proxy@2.3.1/Documentation~/GetStartedNewRepository.md",
+    "exomatriz-movement/exomatriz_MoveProto/Library/PackageCache/com.unity.collab-proxy@2.3.1/Documentation~/AddMembers.md",
+    "exomatriz-movement/exomatriz_MoveProto/Library/PackageCache/com.unity.collab-proxy@2.3.1/Documentation~/CreateProjects.md",
+    "exomatriz-movement/exomatriz_MoveProto/Library/PackageCache/com.unity.collab-proxy@2.3.1/Documentation~/AccessRemoteProjects.md",
+    "exomatriz-movement/exomatriz_MoveProto/Library/PackageCache/com.unity.collab-proxy@2.3.1/Third Party Notices.md",
+    "exomatriz-movement/exomatriz_MoveProto/Library/PackageCache/com.unity.collab-proxy@2.3.1/README.md",
+    "exomatriz-movement/exomatriz_MoveProto/Library/PackageCache/com.unity.collab-proxy@2.3.1/LICENSE.md",
+    "exomatriz-movement/exomatriz_MoveProto/Library/PackageCache/com.unity.collab-proxy@2.3.1/CHANGELOG.md",
+    "process/design-documents/Design notes.md",
+    "process/leo-todo.md"
   ]
 }

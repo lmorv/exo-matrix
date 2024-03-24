@@ -1,3 +1,64 @@
+## 2024-03-24 | Visual style, narrative, and technical investigations
+
+I decided to do a deep dive into movement controls and the details of their implementation by following this tutorial: [sliding a sphere](https://catlikecoding.com/unity/tutorials/movement/sliding-a-sphere/)
+
+![move](./design-documents/RelativeMovement_tut.png)
+
+The implementation ignores the input system in Unity choosing to instead explain the underlying functions from the API and the core principles that go into player-controlled motion. I feel like I always need a refresher and some sort of structured method when it comes to fundamentals, and I  am finding it very satisfying to attain this level of control on systems that normally i might be wondering why they work. There's a whole series of movement tutorials on this site and I am excited to explore them, learn a whole bunch of stuff and adapt them to my needs.
+
+On the narrative and visual style side of things I made some 3D explorations on Blender imagining a sort of divine coleoptera (beetle) that perhaps is a hybrid with a moth and a human. A sort of symbolic effigy of the divine being character that I imagined telling the story of the game.
+
+To recap, or to explicitly tell it for the first time, I imagined a human that gains the ability to see from the perspective of beetles as a whole system, in conjunction with humans and their environment. And is now from that system's perspective witnessing the lives and historical events of his descendants, several generations into the future.
+
+I want the beetle traversal game mode to be an opportunity to not only come into a micro scale of the system (kinnda like in the game Everything), but also fo rthe game to become more abstract and to experience more intimately the backstory of this demi-god character, whose consciousness can move across time scales from a global POV.
+
+I wrote this poem a while ago as a sort of game introduction:
+
+What occludes the nocturnal view
+but darkness unbound?
+A place for indeterminate light.
+I feel like I've been left to die.
+Time on this scale is exhilarating,
+the circuitry of the universe.
+I never thought I'd be an ancestor to tomorrow.
+My own perspective vastly insignificant.
+I tested the limits of my influence,
+far beyond, and from beyond my mortal heart's desires.
+Now I am ancient. I am stone.
+If it can be said that I take decisions,
+it is only through you. All of you.
+Precursors of dawn. 
+
+
+![Moooth](../art-source/design-sketches/LeoMV_DissonantInkMoth-3.png)
+
+![Moooth](../art-source/design-sketches/LeoMV_DissonantInkMoth-4.png)
+
+![Moooth](../art-source/design-sketches/LeoMV_DissonantInkMoth-1.png)
+
+![Moooth](../art-source/design-sketches/LeoMV_DissonantInkMoth-2.png)
+## 2024-03-08 | Isolated feature prototyping, beetle movement and non-human POV
+
+I've set out to prototype a number of movement explorations to develop the idea of a game mode that puts you in the point of view of a beetle traversing an environment.
+
+I'm just gonna copy paste what I wrote on my Game Prototyping class repo here:  [CART315 class journal entry # 3](https://github.com/lmorv/CART315-GameProto/blob/main/process/journal.md#03---conceptualization--possible-tangents-in-exo-matriz-and-extra-ideation-to-appease-the-gods)
+
+"I spent some time thinking of the different tangents I could take my existing project 'exo-matriz', and prototype in 'units' of distinct features. Some possible options are laied out in my notes that branch from the core concept of the game 'farming sim with beetles'. They are
+
+- Market trading mechanics (the idea that you could trade the yield of your crops for money and upgrades).
+- beetle adventure arc - (a beetle micro traversal of an environment from the POV of a beetle).
+- Human arc societal arch (which I see as the main game mode).
+- Post-apocalyptic worldbuilding / Narrative systems design. (building up the details of the world and a sort of chapter progression).
+
+Unlock flows are sort-of central to many of these features too.
+
+I also expanded out into wider concepts trying to generate new and completely different game concepts in class. my favorites are 'Orca Resistance Network', 'Feelings + Explosion' and 'Notebook + Cultivation'.
+
+From now on I will continue my journaling and development in the exo-matriz repo moving forward with 3rd person movement explorations, a sort of platformer for beetle movement. My initial question is purely functional; How do I implement 3d movement in an interesting traversal mechanic context?"
+
+![feature tangents](./photos/FeatureTangentsNotes_1.jpeg)
+
+![feature tangents](./photos/FeatureTangentsNotes_2.jpeg)
 
 ## 2023-11-12 | Of debugging movement and parcel subdivision implementation
 
