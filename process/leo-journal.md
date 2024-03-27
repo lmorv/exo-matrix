@@ -1,8 +1,12 @@
+
+## -- -- -- | Movement variations
+
+
 ## 2024-03-24 | Visual style, narrative, and technical investigations
 
 I decided to do a deep dive into movement controls and the details of their implementation by following this tutorial: [sliding a sphere](https://catlikecoding.com/unity/tutorials/movement/sliding-a-sphere/)
 
-![move](./design-documents/RelativeMovement_tut.png)
+![move](./design-documents/RelativeMovement_Tut.png)
 
 The implementation ignores the input system in Unity choosing to instead explain the underlying functions from the API and the core principles that go into player-controlled motion. I feel like I always need a refresher and some sort of structured method when it comes to fundamentals, and I  am finding it very satisfying to attain this level of control on systems that normally i might be wondering why they work. There's a whole series of movement tutorials on this site and I am excited to explore them, learn a whole bunch of stuff and adapt them to my needs.
 

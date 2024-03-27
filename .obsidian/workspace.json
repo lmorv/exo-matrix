@@ -32,6 +32,16 @@
             }
           },
           {
+            "id": "4ede95bdb76ea1e8",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "process/design-documents/RelativeMovement_Tut.png"
+              }
+            }
+          },
+          {
             "id": "7cc6bfd85ed4ecb0",
             "type": "leaf",
             "state": {
@@ -173,9 +183,10 @@
   },
   "active": "34bed233f4e507d9",
   "lastOpenFiles": [
-    "process/leo-why.md",
-    "process/leo-journal.md",
     "process/design-documents/RelativeMovement_Tut.png",
+    "process/leo-journal.md",
+    "process/manifesto-zapatista-translation.md",
+    "process/leo-why.md",
     "art-source/design-sketches/exo-matriz_MoodSketch.png",
     "art-source/design-sketches/exomatriz_SubdivMapDesign.png",
     "art-source/design-sketches/LeoMV_DissonantInkMoth-1.png",
@@ -188,7 +199,6 @@
     "art-source/design-sketches/LeoMV_DissonantInkMoth-3.png",
     "art-source/design-sketches/LeoMV_DissonantInkMoth-2.png",
     "Untitled.md",
-    "process/manifesto-zapatista-translation.md",
     "exomatriz-movement/exomatriz_MoveProto/Library/StateCache/SceneView/b8/b8346376664d15824a4958c778a2cce5.json",
     "exomatriz-movement/exomatriz_MoveProto/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json",
     "exomatriz-movement/exomatriz_MoveProto/Library/StateCache/SceneView/b8",
