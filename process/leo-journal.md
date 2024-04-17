@@ -1,7 +1,26 @@
+## 2024-04- -- | Character design sketching
 
-## -- -- -- | Movement variations
 
 
+![Concept art](/art-source/design-sketches/exomatriz_BeetleTraversal.png)
+
+## 2024-04-17 | Level design concepting
+
+I drew this diagram of what I envision a beetle traversal level to look like, and I annotated the drawing to convey how it fits within the larger game loop of exomatriz. 
+
+At given points in space on the agro-ecosytem main game mode, the player will be able to trigger a transition to beetle traversal mode, where they are given control of a beetle character's movement. They explore the environment and attempt to reach the far end of the level, at which time they may transition onto a new level or back into agro-ecosytem mode.
+
+The traversal is not meant to be particularly challenging, but rather satisfying or interesting, in terms of the qualities of the movement.  Different levels may offer more sluggish or more responsive controls, other's may feature different camera angles, or an orbiting perspective, or over-the-shoulder. One development goal is to implement a climbing mechanic as shown here: [Catlike Coding - Climbing](https://catlikecoding.com/unity/tutorials/movement/climbing/)
+
+This game mode is also meant as an opportunity to explore the fabulative aspects of the narrative. Via text pop ups, dialogue boxy like things, revealing in abstract and poetic language the mystic undertones of the game's mythological, cyber-puny atmosphere. I imagine the tone ranging from the grandiose/ dramatic to the more mundane, funny, wholesome, slice-of-life of a beetle type of thing.
+
+![Concept art](/art-source/design-sketches/exomatriz_LevelDesign01.png)
+
+## 2024-04-16 | Movement variations
+
+I spent some time playing around with the acceleration and max speed parameters, exploring the range of 'movement feel' that they give. With the fixed camera in a 3/4 perspective it really gives that feeling of closeness and smallness that I am after and the variations of movement quality show a lot of potential for design affordances. 
+
+![move](./screenshots/SlideSphere_exomatriz_smoll.gif)
 ## 2024-03-24 | Visual style, narrative, and technical investigations
 
 I decided to do a deep dive into movement controls and the details of their implementation by following this tutorial: [sliding a sphere](https://catlikecoding.com/unity/tutorials/movement/sliding-a-sphere/)
@@ -14,7 +33,7 @@ On the narrative and visual style side of things I made some 3D explorations on 
 
 To recap, or to explicitly tell it for the first time, I imagined a human that gains the ability to see from the perspective of beetles as a whole system, in conjunction with humans and their environment. And is now from that system's perspective witnessing the lives and historical events of his descendants, several generations into the future.
 
-I want the beetle traversal game mode to be an opportunity to not only come into a micro scale of the system (kinnda like in the game Everything), but also fo rthe game to become more abstract and to experience more intimately the backstory of this demi-god character, whose consciousness can move across time scales from a global POV.
+I want the beetle traversal game mode to be an opportunity to not only come into a micro scale of the system (kinnda like in the game Everything), but also for the game to become more abstract and to experience more intimately the backstory of this demi-god character, whose consciousness can move across time scales from a global POV.
 
 I wrote this poem a while ago as a sort of game introduction:
 

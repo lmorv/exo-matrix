@@ -30,28 +30,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "4ede95bdb76ea1e8",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "process/design-documents/RelativeMovement_Tut.png"
-              }
-            }
-          },
-          {
-            "id": "7cc6bfd85ed4ecb0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "process/manifesto-zapatista-translation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
         "currentTab": 1
@@ -104,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 202.5
   },
   "right": {
     "id": "1aa12702f2f1070c",
@@ -183,31 +161,31 @@
   },
   "active": "34bed233f4e507d9",
   "lastOpenFiles": [
-    "process/design-documents/RelativeMovement_Tut.png",
-    "process/leo-journal.md",
-    "process/manifesto-zapatista-translation.md",
     "process/leo-why.md",
+    "process/leo-journal.md",
+    "art-source/design-sketches/exomatriz_LevelDesign01.png.~tmp",
+    "art-source/psF5FD.tmp",
+    "art-source/design-sketches/exomatriz_BeetleTraversal.png",
+    "art-source/psCACB.tmp",
+    "art-source/ps4E9B.tmp",
+    "art-source/ps2BA.tmp",
+    "art-source/psDB79.tmp",
+    "art-source/design-sketches/exomatriz_LevelDesign01.png",
+    "process/manifesto-zapatista-translation.md",
+    "art-source/ps8DD8.tmp",
+    "art-source/ps2EBE.tmp",
+    "art-source/psC372.tmp",
+    "art-source/ps8791.tmp",
+    "process/design-documents/RelativeMovement_Tut.png",
     "art-source/design-sketches/exo-matriz_MoodSketch.png",
     "art-source/design-sketches/exomatriz_SubdivMapDesign.png",
     "art-source/design-sketches/LeoMV_DissonantInkMoth-1.png",
-    "process/concept-art",
     "README.md",
     "art-source/design-sketches/subdiv01.png",
     "art-source/design-sketches/subdiv02.png",
     "art-source/design-sketches/subdiv03.png",
     "art-source/design-sketches/LeoMV_DissonantInkMoth-4.png",
-    "art-source/design-sketches/LeoMV_DissonantInkMoth-3.png",
-    "art-source/design-sketches/LeoMV_DissonantInkMoth-2.png",
     "Untitled.md",
-    "exomatriz-movement/exomatriz_MoveProto/Library/StateCache/SceneView/b8/b8346376664d15824a4958c778a2cce5.json",
-    "exomatriz-movement/exomatriz_MoveProto/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json",
-    "exomatriz-movement/exomatriz_MoveProto/Library/StateCache/SceneView/b8",
-    "exomatriz-movement/exomatriz_MoveProto/Library/StateCache/SceneView/8c",
-    "exomatriz-movement/exomatriz_MoveProto/Library/StateCache/SceneView",
-    "exomatriz-movement/exomatriz_MoveProto/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json",
-    "exomatriz-movement/exomatriz_MoveProto/Library/StateCache/MainStageHierarchy/4d",
-    "exomatriz-movement/exomatriz_MoveProto/Library/StateCache/MainStageHierarchy",
-    "exomatriz-movement/exomatriz_MoveProto/Library/EditorSnapSettings.asset",
     "exomatriz-movement/exomatriz_MoveProto/Library/PackageCache/com.unity.collab-proxy@2.3.1/Documentation~/TableOfContents.md",
     "exomatriz-movement/exomatriz_MoveProto/Library/PackageCache/com.unity.collab-proxy@2.3.1/Documentation~/index.md",
     "exomatriz-movement/exomatriz_MoveProto/Library/PackageCache/com.unity.collab-proxy@2.3.1/Documentation~/QuickStartGuide.md",
