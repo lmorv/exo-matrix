@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 202.5
+    "width": 215.5,
+    "collapsed": true
   },
   "right": {
     "id": "1aa12702f2f1070c",
@@ -161,6 +162,7 @@
   },
   "active": "34bed233f4e507d9",
   "lastOpenFiles": [
+    "process/design-documents/exomatriz_BeetleGamemode.pdf",
     "process/leo-why.md",
     "process/leo-journal.md",
     "art-source/design-sketches/exomatriz_LevelDesign01.png.~tmp",

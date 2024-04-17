@@ -1,6 +1,8 @@
-## 2024-04- -- | Character design sketching
+## 2024-04-17 | Character design sketching and post presentation reflection
 
+sketched some beetles and gave a pitch presentation for class. I am mainly just having fun with the beetle design for it's own sake on one level, on another I am trying to observe physiological traits that might inform design, sometimes unintentionally. I fixated on the odd placement of the wings for example, and the hook-like spikiness of the legs. I was already thinking about a climbing mechanic, the wings make me think of a gliding, short spurts of flight mechanic. In general I am leaning to maximize chunk in the shape language.
 
+Following the pitch presentation (I'll upload the slides to the design docs folder), I find that the game mode is a waaay disconnected from the main stream of the farming sim aspect of the game. The main areas of feedback focused on that fact, the clashing styles of 2D and 3D, and the fact that the beetle platformer could be it's own game. I was reminded of the need to ask intresting questions that can be answered by smaller iterative prototypes. And that It might be worth branching off from the larger project to follow the lines of inquiry brought by this path of exploration, namely around the goal of creating an atmospheric, abstract-narrative game that is not challenging to the player, and centers around contemplation and navigation of a 3D environment, the qualities of movement and camera perspective.
 
 ![Concept art](/art-source/design-sketches/exomatriz_BeetleTraversal.png)
 
